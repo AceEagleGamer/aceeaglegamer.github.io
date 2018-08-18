@@ -4,10 +4,6 @@ var cookiecount = 0;
 
 var autoClickers = 0;
 
-window.onload = function() {
-  load();
-}
-
 function update() {
   document.getElementById('text').value = cookiecount;
   document.title = cookiecount + " Cookies";
